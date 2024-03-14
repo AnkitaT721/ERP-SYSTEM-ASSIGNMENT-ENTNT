@@ -1,0 +1,144 @@
+.products-management {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .products-management h2 {
+    margin-bottom: 20px;
+  }
+  
+  .products-management input[type="text"],
+  .products-management input[type="number"],
+  .products-management button {
+    margin-bottom: 10px;
+  }
+  
+  .products-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .products-management th,
+  .products-management td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .products-management th {
+    background-color: #f2f2f2;
+  }
+  
+  .products-management .dialogTable {
+    width: 100%;
+  }
+  
+  .products-management .dialogTable th,
+  .products-management .dialogTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .products-management .dialogTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .product-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-form input[type="text"],
+  .product-form input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-form input[type="text"]::placeholder,
+  .product-form input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  .add-product-btn {
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  
+  .add-product-btn:hover {
+      background-color: #117a8b; 
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  
+  .actions button {
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .actions button:first-child {
+    margin-top: 10px;
+    background-color: rgb(138, 201, 45);
+    color: white;
+  }
+  
+  .actions button:last-child {
+    background-color: rgb(201, 45, 45);
+    color: white;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .products-management input[type="text"],
+    .products-management input[type="number"] {
+      width: 100%;
+    }
+  
+    .products-management .submitDialogActions {
+      overflow-x: auto;
+    }
+  
+    .products-management .dialogTable {
+      overflow-x: auto;
+    }
+  
+    .product-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .product-form input[type="text"],
+    .product-form input[type="number"] {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+  
+    }
+    
+    .product-form input[type="text"]::placeholder,
+    .product-form input[type="number"]::placeholder {
+      color: #999;
+    }
+  
+    .add-product-btn{
+      margin: auto;
+    }
+  }
+  
